@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>My Valentine ❤️</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <section class="hero">
+    <h1>Happy Valentine’s Day Aththan ❤️</h1>
+    <p>This website is only for you, my love 💕</p>
+    <button onclick="showMessage()">Click Me 💖</button>
+  </section>
+
+ <section class="message" id="message">
+  <h2>My Heart 💌</h2>
+  <p id="typeText"></p>
+</section>
+
+<audio id="bgMusic" src="music/music.mp3"></audio>
+
+
+  <section class="gallery">
+    <h2>Our Memories 📸</h2>
+
+    <div class="photo-grid">
+      <img src="images/pic1.jpg">
+      <img src="images/pic2.jpg">
+      <img src="images/pic3.jpg">
+    </div>
+  </section>
+
+  <!-- Proposal Button -->
+<section style="margin: 50px 0;">
+  <button onclick="openProposal()">Special Surprise 💍</button>
+</section>
+
+<!-- Proposal Popup -->
+<div class="proposal-overlay" id="proposal">
+  <div class="proposal-box">
+    <h2>Dear Antruf Varun, Will You Marry Me? 💍❤️</h2>
+    <div class="buttons">
+      <button onclick="sayYes()">Yes 😍</button>
+      <button id="noBtn">No 😜</button>
+    </div>
+  </div>
+</div>
+
+
+  <script src="script.js"></script>
+</body>
+</html>
